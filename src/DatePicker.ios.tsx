@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { DatePickerIOS, View } from "react-native";
+import { View } from "react-native";
+import DatePickerIOS from @react-native-picker/picker;
 
 interface Props {
   initDate: Date;
